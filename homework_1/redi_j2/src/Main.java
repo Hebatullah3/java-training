@@ -15,16 +15,16 @@ public class Main {
 
   private static String PrintXY(int length) {
 
-    StringBuilder text = new StringBuilder();
+    String text = "";
     for (int i = 1; i <= length; i++) {
       if (i % 2 == 0) {
-        text.append("Y");
+        text = text + "Y";
       } else {
-        text.append("X");
+        text = text + "X";
 
       }
     }
-    return text.toString();
+    return text;
   }
 
   public static void main(String[] args) {
