@@ -10,11 +10,10 @@ public class Main {
 
     }
     System.out.println(M);
-
   }
 
+  // print XY string based on string length
   private static String PrintXY(int length) {
-
     String text = "";
     for (int i = 1; i <= length; i++) {
       if (i % 2 == 0) {
@@ -29,8 +28,6 @@ public class Main {
 
   public static void main(String[] args) {
     PrintTree(6);
-
-
   }
 
 
